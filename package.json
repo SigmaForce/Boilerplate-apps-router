@@ -6,17 +6,28 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@types/node": "20.12.13",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
-    "eslint": "8.57.0",
     "eslint-config-next": "14.2.3",
+    "eslint-config-prettier": "^9.1.0",
     "next": "14.2.3",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "typescript": "5.4.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.3.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.2",
+    "globals": "^15.3.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.2.5",
+    "prettier": "3.2.5",
+    "typescript-eslint": "^7.11.0"
   }
 }
